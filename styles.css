@@ -16,3 +16,9 @@ li{
 .aprendiendo-css{
     background-color: green;
 }
+
+.footer{
+        background-color: black;
+        border: 2px;
+        border-radius: 30px;
+    }
