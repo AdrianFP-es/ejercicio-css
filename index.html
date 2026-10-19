@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web CSS</title>
+    <style>
+    #header{
+    background-color: white;
+    text-align: center;
+    padding: 10px 50px;
+    }
+
+    #main{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .aprendiendo-css{
+        border: 2px;
+        border-radius: 30px;
+        background-color: green;
+    }
+
+    .sobre-mi{
+        border: 2px;
+        border-radius: 30px;
+        background-color:blue;
+    }
+
+    .mis-cajas{
+        background-color: rgb(214, 214, 32);
+        border: 2px;
+        border-radius: 30px;
+    }
+
+    
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <h1>Mi web básica</h1>
+        <nav>
+            <button>Inicio</button>
+            <button>Sobre mí</button>
+            <button>Colores</button>
+            <button>Contacto</button>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="aprendiendo-css">
+            <h2>Aprendiendo CSS</h2>
+            <p>Practica colores, tamaños de texto, fondos, padding y bordes redondeados.</p>
+            <button>Leer más</button>
+        </section>
+
+        <section class="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Esta es una página sencilla para empezar a maquetar con CSS.</p>
+        </section>
+
+        <section class="mis-cajas">
+            <h2>Mis cajas</h2>
+            
+            <div class="caja-rosa">
+                <h3>Caja 1</h3>
+                <p>Esta es la primera caja.</p>
+            </div>
+
+            <div class="caja-azul">
+                <h3>Caja 2</h3>
+                <p>Esta es la segunda caja.</p>
+            </div>
+
+            <div class="caja-verde">
+                <h3>Caja 3</h3>
+                <p>Esta es la tercera caja.</p>
+            </div>
+        </section>
+
+        <section class="contrato">
+            <h2>Contacto</h2>
+            <p>Puedes añadir aquí tu información.</p>
+            <button>Enviar</button>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>Mi primera práctica CSS</p>
+    </footer>
+
+</body>
+</html>
