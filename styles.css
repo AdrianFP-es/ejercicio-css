@@ -67,5 +67,6 @@ li{
     #footer{
         background-color: gray;
         border: 2px;
+        padding: 3px;
         border-radius: 30px;
     }
